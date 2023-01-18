@@ -132,6 +132,8 @@ Example commands:
 
 ### Screenshots <a name="screenshots"></a>
 
+![1](https://user-images.githubusercontent.com/87012757/213214371-f84eab9f-bb04-4bea-bed5-e1000ece6c38.png)
+![2](https://user-images.githubusercontent.com/87012757/213214386-794a2139-31f9-4b41-af09-e651e547fff9.png)
 
 
 ### Schema <a name="schema"></a>
