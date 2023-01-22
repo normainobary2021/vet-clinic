@@ -56,5 +56,5 @@ SELECT animals.name AS animal FROM animals INNER JOIN species ON species_id = sp
 SELECT full_name AS owner, name AS animal FROM animals  RIGHT JOIN owners ON owner_id = owners.id ORDER BY full_name;
 SELECT species.name AS species, COUNT(species_id) AS "number of animals" FROM animals INNER JOIN species ON species_id = species.id GROUP BY species.name;
 SELECT animals.name AS Digimons FROM animals INNER JOIN owners ON owner_id = owners.id WHERE full_name = 'Jennifer Orwell' AND animals.name LIKE '%mon'; 
-SELECT animals.name AS animals FROM animals INNER JOIN owners ON owner_id = owners.id WHERE full_name = 'Dean Winchester' AND animals.escape_attempts < 0;
+SELECT animals.name AS animals FROM animals INNER JOIN owners ON owner_id = owners.id WHERE full_name = 'Dean Winchester' AND animals.escape_attempts = 0;
 SELECT full_name AS "Owner", COUNT(owner_id) AS MaxAnimals FROM animals INNER JOIN owners ON owner_id = owners.id  GROUP BY full_name ORDER BY MaxAnimals DESC LIMIT 1;
